@@ -47,7 +47,7 @@ async function renderTrackingPage() {
     <div class="progress-label js-progress-label-2 ${progress <= 99 && progress >= 50 ? 'current-status' : ''}">
       Shipped
     </div>
-    <div class="progress-label js-progress-label-3 ${progress === 100 ? 'current-status' : ''}">
+    <div class="progress-label js-progress-label-3 ${progress >= 100 ? 'current-status' : ''}">
       Delivered
     </div>
   </div>
